@@ -1,15 +1,18 @@
 
-# Cumulative Distribution Function - cdf
+# The Cumulative Distribution Function (CDF)
+
+## Introduction
 
 The pmf function that we saw before works great for inspecting discrete random variables and calculating their expected values. However, as the size (S) of possible values of X increases, it becomes harder to visually inspect the the pmf. Thats where we can start considering a cdf (Cumulative Distribution Function). This lesson will introduce you to cdfs and how to calculate them.
 ## Objectives
-Students would be able to :
 
-* Differentiate between a pmf and a cdf in terms of cumulative probabilities. 
-* Calculate cdf in python for a given discrete variable with limited set of possible values.
-* Visualize and inspect a given cdf in order to make assumptions about the underlying data. 
+You will be able to:
 
-### Limitations of pmfs
+* Differentiate between a pmf and a cdf in terms of cumulative probabilities 
+* Calculate cdf in python for a given discrete variable with limited set of possible values
+* Visualize and inspect a given cdf in order to make assumptions about the underlying data 
+
+## Limitations of PMFs
 
 We have seen a few pmfs so far. Those were easy to calculate , visualize and analyze as the the size of S (possible values in the discrete variable) was small. As S increases, the size of individual values on the plot start to decrease. Too many values may end up rendering a pmf completely unreadable. 
 ![](birthw.png)
@@ -18,7 +21,7 @@ The example shows a pmf of weights that children can possibly have on their birt
 
 ONe way to deal with this problem could be reducing the size of bins and grouping neighboring values into a larger SECTION. But in doing so, we will end losing a lot of useful information. Another more appropriate way is to plot a cumulative distribution function (cdf), as we shall see below.
 
-### So how does a cdf deal with this?
+## So how does a CDF deal with this?
 
 So we already know what a percentile is from when we plotted box plots. Just like pmf maps a value from its probability, a cdf maps a value from its percentile rank. 
 
@@ -62,7 +65,7 @@ another way to show a cdf plot is using a histogram type of approach towards plo
 
 ![](die-cdf2.png)
 
-### Interpreting the cdf plot
+## Interpreting the CDF plot
 
 In above plots, we see that as we approach from value 1 to 6 , the probability of occurrence of a particular value , or values less than it increases. The cumulative probability of seeing a 6 or less is (obviously) 1. Whereas, probability of seeing a 1 is still 1/6 = 0.17 - same as a pmf, as no value is less than 1 in a die roll.
 
