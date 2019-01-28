@@ -47,7 +47,7 @@ Let's see a quick example to develop a deeper intuition for cdfs.
 <img src="die.jpg" width=200>
 
 Lets see an example of rolling a single die. The probability of rolling a specific number e.g.  2 is 1 out of 6, 1/6, 0.166. (Remember thats how we calculated a pmf) 
-Think of a situation (maybe a gambling game) where you don't just want a 2 as you are okay with a 2 or any number less than it. In this case, there is only one other number: 1. 
+Think of a situation (maybe a gambling game) where you want either a 2 or any number less than it. In this case, there is only one other number: 1. 
 
 So you roll your die looking for a 2 OR a 1. You are now looking for 2 outcomes out of 6 (instead of just one as earlier), hence the probability now is 2/6 = 1/3. 
 
