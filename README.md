@@ -29,18 +29,18 @@ From the last lesson, you learned that you can use the integral to get this "are
 
 <img src="images/section_temp.png" width="650">
 
-$$\large P(82 \leq X \leq 85) = \int_{82}^{85} f_x(x) dx \geq 0 $$
+<img src="https://render.githubusercontent.com/render/math?math=">\large P(82 \leq X \leq 85) = \int_{82}^{85} f_x(x) dx \geq 0 <img src="https://render.githubusercontent.com/render/math?math=">
 
 
 This is the rationale that is being used when working with Cumulative Density Functions, which will be introduced next.
 
 ## How does a Cumulative Density Function (CDF) work?
 
-The CDF is a function of $x$ just like a PMF or a PDF, where $x$ is any value that can possibly appear in a given distribution. To calculate the $CDF(x)$ for any value of $x$, we compute the proportion of values in the distribution less than or equal to $x$ as follows:
+The CDF is a function of <img src="https://render.githubusercontent.com/render/math?math=x">just like a PMF or a PDF, where <img src="https://render.githubusercontent.com/render/math?math=x">is any value that can possibly appear in a given distribution. To calculate the <img src="https://render.githubusercontent.com/render/math?math=CDF(x)">for any value of <img src="https://render.githubusercontent.com/render/math?math=x">, we compute the proportion of values in the distribution less than or equal to <img src="https://render.githubusercontent.com/render/math?math=x">as follows:
 
-$$\large F(x) = P(X \leq x)$$
+<img src="https://render.githubusercontent.com/render/math?math=">\large F(x) = P(X \leq x)<img src="https://render.githubusercontent.com/render/math?math=">
 
-> The Cumulative Distribution Function, CDF, gives the probability that the variable $X$ is less than or equal to a certain possible value $x$. 
+> The Cumulative Distribution Function, CDF, gives the probability that the variable <img src="https://render.githubusercontent.com/render/math?math=X">is less than or equal to a certain possible value <img src="https://render.githubusercontent.com/render/math?math=x">. 
 
 The cumulative distribution functions for a dice roll and the weather in NYC are plotted below.
 
@@ -52,9 +52,9 @@ This is also what "cumulative" means - you're simply adding up probabilities.
 You'll notice that in general, CDFs are smooth curves for continuous random variables, where they are "step functions" when looking at discrete random variables. Looking at these curves, we can answer questions by looking at the y-axis.
 
 
-What is the probability that you throw a value $\leq$ 4 when throwing a dice? 0.6667 or 66.67. For this discrete example it is pretty straightforward, as this is the probability of throwing a 1 OR 2 OR 3 OR 4, so $0.1666 * 4$.
+What is the probability that you throw a value <img src="https://render.githubusercontent.com/render/math?math=\leq">4 when throwing a dice? 0.6667 or 66.67. For this discrete example it is pretty straightforward, as this is the probability of throwing a 1 OR 2 OR 3 OR 4, so <img src="https://render.githubusercontent.com/render/math?math=0.1666 * 4">.
 
-What is the probability that the temperature in NYC is $\leq$ 79? Looking at the associated y-value when looking at an $x$-value of 79, this probability is around $40\%$ or $0.4$.
+What is the probability that the temperature in NYC is <img src="https://render.githubusercontent.com/render/math?math=\leq">79? Looking at the associated y-value when looking at an <img src="https://render.githubusercontent.com/render/math?math=x">-value of 79, this probability is around <img src="https://render.githubusercontent.com/render/math?math=40\%">or <img src="https://render.githubusercontent.com/render/math?math=0.4">.
 
 ## Calculating more probabilities using the CDF
 
@@ -63,11 +63,11 @@ Let's go back to our weather example introduced before. An additional advantage 
 <img src="images/section_temp.png" width="650">
 
 The idea is that
-$$\large P(82 \leq X \leq 85) = P(X \leq 85) - P(X \leq 82)= F_X(85)- F_X(82)$$
+<img src="https://render.githubusercontent.com/render/math?math=">\large P(82 \leq X \leq 85) = P(X \leq 85) - P(X \leq 82)= F_X(85)- F_X(82)<img src="https://render.githubusercontent.com/render/math?math=">
 
 This means that you can look at the y-value of your cumulative density function to get the answer to this question.
 
-$$\large F_X(85)- F_X(82)	\approx 0.95-0.6 = 0.35$$
+<img src="https://render.githubusercontent.com/render/math?math=">\large F_X(85)- F_X(82)	\approx 0.95-0.6 = 0.35<img src="https://render.githubusercontent.com/render/math?math=">
 
 ## Summary 
 
