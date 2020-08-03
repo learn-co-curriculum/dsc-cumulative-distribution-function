@@ -52,9 +52,9 @@ This is also what "cumulative" means - you're simply adding up probabilities.
 You'll notice that in general, CDFs are smooth curves for continuous random variables, where they are "step functions" when looking at discrete random variables. Looking at these curves, we can answer questions by looking at the y-axis.
 
 
-What is the probability that you throw a value <img src="https://render.githubusercontent.com/render/math?math=\leq">4 when throwing a dice? 0.6667 or 66.67. For this discrete example it is pretty straightforward, as this is the probability of throwing a 1 OR 2 OR 3 OR 4, so <img src="https://render.githubusercontent.com/render/math?math=0.1666 * 4">.
+What is the probability that you throw a value <img src="https://render.githubusercontent.com/render/math?math=\leq4"> when throwing a dice? 0.6667 or 66.67. For this discrete example it is pretty straightforward, as this is the probability of throwing a 1 OR 2 OR 3 OR 4, so <img src="https://render.githubusercontent.com/render/math?math=0.1666 * 4">.
 
-What is the probability that the temperature in NYC is <img src="https://render.githubusercontent.com/render/math?math=\leq">79? Looking at the associated y-value when looking at an <img src="https://render.githubusercontent.com/render/math?math=x">-value of 79, this probability is around <img src="https://render.githubusercontent.com/render/math?math=40 %"> or <img src="https://render.githubusercontent.com/render/math?math=0.4">.
+What is the probability that the temperature in NYC is <img src="https://render.githubusercontent.com/render/math?math=\leq79">? Looking at the associated y-value when looking at an <img src="https://render.githubusercontent.com/render/math?math=x">-value of 79, this probability is around 40% or 0.4.
 
 ## Calculating more probabilities using the CDF
 
