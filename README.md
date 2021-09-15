@@ -34,7 +34,7 @@ $$\large P(82 \leq X \leq 85) = \int_{82}^{85} f_x(x) dx \geq 0 $$
 
 This is the rationale that is being used when working with Cumulative Density Functions, which will be introduced next.
 
-## How does a Cumulative Density Function (CDF) work?
+## How does a Cumulative Distribution Function (CDF) work?
 
 The CDF is a function of $x$ just like a PMF or a PDF, where $x$ is any value that can possibly appear in a given distribution. To calculate the $CDF(x)$ for any value of $x$, we compute the proportion of values in the distribution less than or equal to $x$ as follows:
 
