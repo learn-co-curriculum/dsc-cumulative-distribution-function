@@ -1,4 +1,3 @@
-
 # The Cumulative Distribution Function
 
 ## Introduction
@@ -17,7 +16,7 @@ You will be able to:
 
 To illustrate the use of Cumulative Distribution Functions, let's have another look at the PMF and PDF of our dice and temperature example:
 
-<img src="images/dice_and_temp.png" width="900">
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/dice_and_temp.png" width="900">
 
 
 Recall how we could easily read probabilities from the dice PMF plot ("The probability of throwing a 4 is 16.66%"), but it is much harder to interpret the temperature PDF. What is the probability that the temperature is exactly 80 degrees? We learned in the previous lesson that all these so-called "point probabilities" are 0, so the bottom line is that it is very hard to "read" any interesting information from a PDF. The PDF is mainly there to get a sense of the data density, but you cannot readily read the y-axis to get to probabilities.
@@ -27,7 +26,7 @@ We did see last that when you want to calculate probabilities, you need to take 
 From the last lesson, you learned that you can use the integral to get this "area under the curve" value by taking the integral as follows:
 
 
-<img src="images/section_temp.png" width="650">
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/section_temp.png" width="650">
 
 $$\large P(82 \leq X \leq 85) = \int_{82}^{85} f_x(x) dx \geq 0 $$
 
@@ -45,7 +44,7 @@ $$\large F(x) = P(X \leq x)$$
 The cumulative distribution functions for a dice roll and the weather in NYC are plotted below.
 
 
-<img src="images/cdfs_dice_nyc_2.png" width="950">
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/cdfs_dice_nyc_2.png" width="950">
 
 This is also what "cumulative" means - you're simply adding up probabilities.
 
@@ -60,7 +59,7 @@ What is the probability that the temperature in NYC is $\leq$ 79? Looking at the
 
 Let's go back to our weather example introduced before. An additional advantage of CDFs is that you can use them to easily calculate things like:
 
-<img src="images/section_temp.png" width="650">
+<img src="https://curriculum-content.s3.amazonaws.com/data-science/images/section_temp.png" width="650">
 
 The idea is that
 $$\large P(82 \leq X \leq 85) = P(X \leq 85) - P(X \leq 82)= F_X(85)- F_X(82)$$
